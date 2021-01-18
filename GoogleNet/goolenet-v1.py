@@ -170,7 +170,6 @@ def evaluate_acc(test_iter, net):
     test_acc = round(test_correct_n/test_n, 3)
     return test_acc
 
-
 if __name__ == '__main__':
     epochs = 5
     batch_size = 64
